@@ -1,0 +1,200 @@
+.work .card img {
+    width: 100%;
+    height: 150px;
+}
+
+.work .card{
+    border-bottom: 5px solid #00a8e8;
+    border-radius: 10px;
+}
+
+.work p{
+    color: #555;
+}
+
+.work .readmore{
+    color: #00a8e8;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.work .label {
+    color: white;
+    padding: 8px;
+    font-family: Arial;
+  }
+
+.work .other {
+    background-color: #fff;
+    color: #555;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #d6d6d6;
+} 
+
+.work .details{
+    margin-bottom: 15px;
+}
+
+.work .details p{
+    font-size: 14px;
+}
+
+.work .card-body{
+    margin: 5px 10px;
+}
+
+.technology{
+    height: 400px;
+    background: #00a8e8;
+}
+
+.technology h1{
+    color: #fff;
+}
+
+.technology p{
+    color: #fff;
+}
+
+.technology .label {
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #d6d6d6;
+    margin: 10px;
+  }
+
+
+.technology i{
+    font-size: 24px;
+}
+
+.technology .label img{
+    width: 40px;
+    height: 40px;
+}
+
+.technology .icons{
+    margin-top: 20px;
+}
+
+.technology .head{
+    margin-top: 50px;
+}
+
+.technology .col-md-1{
+    margin: 15px;
+}
+
+.workdetails{
+    margin-top: 80px;
+}
+
+.worksearch{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.work .detailsgo{
+    background: #00a8e8;
+    height: 371px;
+}
+
+.work .detailsgo .des{
+    color: #fff;
+    padding: 24px;
+    margin: 36px 0px;
+}
+
+.work .detailsgo .des p{
+    color: #fff;
+}
+
+.work .detailsgo .des img{
+    width: 40px;
+    height: 40px;
+}
+
+.servicecard img{
+    width: 40px;
+    height: 40px;
+}
+
+.service{
+    height: 500px;
+    background: #00a8e8;
+}
+
+.service h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.service p{
+    color: #fff;
+}
+
+.serviceimg img{
+    width: 100%;
+    height: auto;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+@media only screen and (max-width: 430px) {
+    .work .mob{
+        margin-left: 50px;
+    }
+  }
+
+@media only screen and (max-width: 380px) {
+    .work .mob{
+        margin-left: 30px;
+    }
+    .technology{
+        height: 600px;
+    }
+  }
+
+@media only screen and (max-width: 325px) {
+    .work .mob{
+        margin-left: 5px;
+    }
+  }
+
+@media only screen and (min-width: 720px) {
+    .technology h1{
+        font-size: 50px;
+    }
+    
+    .work h1{
+        font-size: 50px;
+    }
+    #service_section_main h1{
+        font-size: 50px;
+    }
+    .worksearch{
+        height: 40px;
+        margin-top: 50px;
+    }
+    .worksearch .search{
+        width: 520px;
+    }
+    .service .head{
+        padding: 80px;
+        margin: 100px 0px;
+    }
+    .service h1{
+        font-size: 50px;
+    }
+  }
